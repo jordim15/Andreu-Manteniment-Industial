@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="ca-es">
+<head>
+<title>Andreu Manteniment Industrial.S.L.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Quiénes somos?" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Andreu Manteniment Industrial mantenimiento industrial termografías servicios industriales instalaciones" />
+<meta name="author" content="Jordi Mallol Musté" />
+<meta name="description" content="Andreu Manteniment Industrial empresa dedicada al mantenimiento e instalaciones industriales." />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.hoverlink:hover{
+  color: #848484;
+}
+ 
+/* The Modal (background) */
+.modalabc {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-contentabc {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  max-height: 500px;
+}
+
+/* The Close Button */
+.closeabc {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.closeabc:hover,
+.closeabc:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlidesabc {
+  display: none;
+  margin-top: -40px;
+}
+
+.cursorabc {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prevabc,
+.nextabc {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextabc {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevabc:hover,
+.nextabc:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertextabc {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: verdana;
+}
+
+}
+
+.captionabc-containerabc {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.activeabc:hover {
+  opacity: 1;
+}
+
+img.hover-shadowabc {
+  transition: 0.3s
+}
+
+.hover-shadowabc:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+  #p01:link      {color:white;background-color:#333;text-decoration:none;padding:10px}
+  #p01:visited   {color:white;background-color:#333;text-decoration:none;padding:10px}
+  #p01:hover     {color:white;background-color:#111;text-decoration:none;padding:10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+  #jordim:hover {color:#f44336;cursor:pointer;}
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+ul.topnav {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0px;
+    overflow: auto;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+    width:12.5%;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {color:#009688;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 850px){
+    ul.topnav li.right, 
+    ul.topnav li,
+    ul.topnav li a {
+      float: none;
+      width:100%;
+      padding: 3px 0px;
+}
+}
+}
+
+}
+
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<ul class="topnav">
+  <li><a href="#who">Qui som?                     </a></li>
+  <li><a href="#place">El centre de treball       </a></li>
+  <li><a href="#inst">Instal·lacions industrials  </a></li>
+  <li><a href="#aud">Auditories energètiques      </a></li>
+  <li><a href="#term">Estudis termogràfics        </a></li>
+  <li><a href="#mant">Manteniment                 </a></li>
+  <li><a href="#loc">Localització                 </a></li>
+  <li><a href="#contact">Contactar                </a></li>
+</ul>
+
+
+<!-- Content -->
+<div class="w3-content" style="max-width:900px;margin-top:60px;margin-bottom:0px">
+
+  <div class="w3-panel">
+    <img src="images/LOGO.jpg" style="margin-top:-60px;width:100%">
+    <p>Benvingut a Andreu Manteniment Industrial.
+      <a href="wwww.andreumanteniment.com_lang_en"><img src="images/eng.ico" style="width:27px;float:right;margin-right:5px"></a>
+      <a href="wwww.andreumanteniment_lang_es"><img src="images/esp.ico" style="width:27px;float:right"></a>
+      <a href="wwww.andreumanteniment_lang_ca"><img src="images/cat.ico" style="width:27px;float:right"></a>
+</p>
+
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="images/nave.jpg" style="width:100%">
+      <div class="w3-display-bottomright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Responsabilitat</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/oficina2.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Qualitat</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="images/taller3.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Eficiècia</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding-8 w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container" id="who">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Qui som?</span>
+    </div>
+    <div style="background-color:#E7E7E7;padding:12px">
+      <p>Som una empresa dedicada a les instal·lacions de mitja i baixa tensió, projectes d'automatització, manteniment industrial i altres instal·lacions.</p>
+      <h3>Evolució</h3>
+      <p>Des de la seva fundació hem experimentat un continu creixement basat en el compromís la qualitat i la formació contínua del nostres tècnics.</p>
+      <p>Això ens ha permès consolidar-nos i poder realitzar els projectes més complexes, tant de solucions integrals com de manteniment.</p>
+      <p>Per poder donar un servei complert comptem amb professionals de diferents especialitats del sector industrial; electricitat, automatització neumàtica, informàtica, etc. que ens permet garantir l'experiència i la professionalitat dels nostres técnics a tots els serveis oferts.</p>
+      <p>També disposem dels últims sistemes al camp industrial, como la nova serie siemens S7-1200 per automatizacions o els 
+        <a href="#studies" class="hoverlink">estudis termogràfics</a> per la seguretat i la detecció d'avaries.</p>
+      <p>Ens trobem al polígon industrial de Valls, població de la provincia de Tarragona i oferim els nostres serveis tant localment como amb desplaçaments dins i fora del territori espanyol.</p>
+      <p>Li convidem a que doni un passeig per la nostra web i conegui més a fons la nostra gama de serveis.</p>
+      <p>Per a més informació pot descarregar el nostre tríptic informatiu (<a href="docs/cataleg_interior.pdf" class="hoverlink" target="_blank">interior</a>, 
+        <a href="docs/cataleg_exterior.pdf" class="hoverlink" target="_blank">exterior</a>)</p>
+    </div>
+  </div>
+  <p style="text-align:right;font-family:verdana;r;margin-right:16px";><a href="#" id="p01">Home<a><p>
+        <hr style="border-width:2.5px;">
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-container" id="place">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">El centre de treball</span>
+    </div>
+    <div style="background-color:#E7E7E7;padding:12px">
+      <p>Les nostres instal·lacions estan ubicades al Polígon Industrial de Valls carretera Pla de Santa Maria.</p>
+      <p style="text-align: center;">
+        <img src="images/furgonetas1.jpg" border="1" alt="Fotografia Nau" title="Fotografía Nave" width="45%" height="auto" onclick="openModal();currentSlide(1)" 
+        class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+        <img src="images/oficina1.jpg" border="1" alt="Fotografía Nave" title="Fotografía Furgonetas" width="45%" height="auto" onclick="openModal();currentSlide(2)" 
+        class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" /></p>
+      <p>Disposem de una nau industrial de un total de 500m2 .</p>
+      <p>A la planta superior es troben les oficines i la sala de reunions.</p>
+      <p style="text-align: center;">
+        <img src="images/oficina2.jpg" border="1" alt="Fotografia oficines" title="Fotografía Nave" width="45%" height="auto" onclick="openModal();currentSlide(3)" 
+        class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+        <img src="images/reunion1.jpg" border="1" alt="Fotografía sala reuniones" title="Fotografía Nave" width="45%" height="auto" onclick="openModal();currentSlide(4)" 
+        class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" /></p>
+      <p>A la planta inferior es troba el magatzem i el taller, on preparem el material i elaborem els quadres de control i potència que instal·larem posteriorment a les instal·lacions.</p>
+       <p style="text-align: center;">
+        <img src="images/taller3.jpg" border="1" alt="Fotografía Taller" title="Fotografía Nave" width="45%" height="auto" onclick="openModal();currentSlide(5)" 
+        class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+        <img src="images/taller4.jpg" border="1" alt="Fotografía Taller" title="Fotografia Taller" width="45%" height="auto" onclick="openModal();currentSlide(6)" 
+        class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" /></p>
+    </div>
+  </div>
+  <p style="text-align:right;font-family:verdana;r;margin-right:16px";><a href="#" id="p01">Home<a><p>
+        <hr style="border-width:2.5px;">
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-container" id="inst">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Instal·lacions industrials</span>
+    </div>
+    <div style="background-color:#E7E7E7;padding:12px">
+      <tr>
+      <td valign="top">
+      <h3>Projectes i instal·lacions eléctriques de mitja i baixa tensió</h3>
+      <p>El nostre departament tècnic realitza tot tipus de projectes elèctrics de mitja i baixa tensió.</p>
+      <ul>
+      <li>Documentació tècnica</li>
+      <li>Informes tècnics</li>
+      <li>Avantprojectes</li>
+      <li>Estudis de viabilitat</li>
+      <li>Realitzem tot tipus d'instal·lacions elèctriques industrials i il·luminació, amb els últims sistemes d'estructures i canalitzacions</li>
+      </ul>
+      <p>&nbsp;</p>
+      <h3>Instal·lacions neumàtiques i de líquids de procés</h3>
+      <p>Realitzem tot tipus d'instal·lacions neumàtiques de posicionament, de procés, e instalacions de fluids líquids per a plantes químiques, tractament d'aigües i alimentària.</p>
+      <p>&nbsp;</p>
+      <p style="text-align: center;">
+      <img src="images/neumatica1.jpg" border="1" alt="Cuadro Neumático 1" title="Cuadro Neumático 1" width="210" height="275" onclick="openModal();currentSlide(7)" 
+      class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+      <img src="images/neumatica2.jpg" border="1" alt="Cuadro Neumático 2" title="Cuadro Neumático 2" width="43.4%" height="auto" onclick="openModal();currentSlide(8)" 
+      class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+      </p>
+      <p>&nbsp;</p>
+
+      <h3>Sistemes de telecomunicació i seguretat electrònica</h3>
+      <p>Entre els productes i serveis que oferim als nostres clients destaquen:</p>
+      <ul>
+      <li>Documentació i Certificació de projectes de Infraestructures Comunes de Telecomunicació (ICT).</li>
+      <li>Explotació de Xarxes Telemàtiques i Serveis Informàtics.</li>
+      <li>Adaptació a la Televisió Digital Terrestre (TDT).</li>
+      <li>Implementació, certificació i revisió de Sistemes Detectors d'Incendis i de Asistència per la revisió de Sistemes Detectors d'Intrusions i Seguretat Electrònica.</li>
+      <li>Disseny i implantació de sistemes domòtics complets.</li>
+      </ul>
+      <h3>Muntatge de quadres de distribució i control</h3>
+      <p>EEstudiem les necessitats del nostre client i dissenyem tot tipus de quadres elèctrics de potència i de control, junt amb un informe complet entregat en suport informàtic per a l'oficina tècnica y en paper per armaris de camp.</p>
+      <p style="text-align: center;">
+      <img src="images/electricidad3.jpg" border="1" alt="Cuadro  Eléctrico 1" title="Cuadro Eléctrico 1" width="210" height="275" onclick="openModal();currentSlide(9)" class="hover-shadowabc cursorabc" 
+      onclick="openModal();currentSlide(8)" style="border: 2px solid white; margin: 10px;" />
+      <img src="images/automat1.jpg" border="1" alt="Cuadro Automatismos 1" title="Cuadro Automatismos 1" width="210" height="275" onclick="openModal();currentSlide(10)" class="hover-shadowabc cursorabc" 
+      onclick="openModal();currentSlide(8)" style="border: 2px solid white; margin: 10px;" />
+      <img src="images/automat2.jpg" border="1" alt="Cuadro Automatismos 2" title="Cuadro Automatismos 2" width="210" height="275" onclick="openModal();currentSlide(11)" class="hover-shadowabc cursorabc" 
+      onclick="openModal();currentSlide(8)" style="border: 2px solid white; margin: 10px;" /></p>
+      <p>&nbsp;</p>
+      <ul>
+      </ul>
+      <h3>Automatizacions i processos de control a mida</h3>
+      <p>Andreu Manteniment Industrial compta amb un departament propi dedicat a la automatització i control de procesos. Els nostres tècnics qualificats ofereixen la millor solució tecnològica. Per això ens trobem en permanent contacte amb les principals marques del mercat, oferint als nostres clients els darrers avanços tècnics.</p>
+      <ul>
+      <li>Instal·lacions d'automatització y control de processos.</li>
+      <li>Programació de PLCs (Siemens, Omron, Fanuc, Allen Bradley, etc.).</li>
+      <li>Programació HMIs i SCADAs (Siemens, Proface, Esa, etc.).</li>
+      <li>Comunicació xarxes industrials via cables de coure, fibra òptica y Wireless amb tots els protocols estàndard industrials (Ethernet, Profibus, Modbus, AS-i, etc).</li>
+      <li>Tot tipus de Transmisors y Sensors (Emerson, Vega, Keyence IFM, etc.).</li>
+      <li>Y una amplia gama d'actuadors y controls de velocitat (Schneider, Festo, Siemens, Power Electronics, etc.).</li>
+      </ul>
+      <p>&nbsp;</p>
+
+      </td>
+      </tr>
+    </div>
+  </div>
+  <p style="text-align:right;font-family:verdana;r;margin-right:16px";><a href="#" id="p01">Home<a><p>
+        <hr style="border-width:2.5px;">
+
+  <!-- Grid -->
+  <div class="w3-row w3-container" id="aud">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Auditories Energètiques</span>
+    </div>
+    <div style="background-color:#E7E7E7;padding:12px">
+      <tr>
+      <td valign="top">
+       <p>Andreu Manteniment Industrial realitza auditories energètiques per poder optimitzar els recursos i millorar el rendiment energètic a les seves instal·lacions.</p>
+       <p>A més de millorar la qualitat de la seva instal·lació, podem ajudar-lo a allargar la vida útil dels seus equips i reduir-ne les seves despeses en energia elèctrica.</p>
+       <p>Inicialment fem un estudi personalitzat de l'estat de la instal·lació mitjançant analitzadors de xarxa. Una vegada analitzat el consum dels equips realitzem un informe detallant les possibles millores i fent una estimació de l'estalvi econòmic que suposaria.</p>
+       <p>Mesures com l'us d'arrancadors electrònics progressius o variadors de freqüència permeten ajustar el consum en funció de la càrrega de l'equip, adaptant-se a les circumstàncies del procés de producció.</p>
+       <p>De manera que s'aconsegueix una ràpida amortització dels equips d'estalvi energètic.</p>
+       <p>&nbsp;</p>
+       <p style="text-align: center;">
+      <img src="images/graf_cat.gif" border="1" alt="Termografia 1" title="Termografia 1" width="65%" height="auto" onclick="openModal();currentSlide(12)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+      </p>
+      </td>
+      </tr>
+    </div>
+  </div>
+  <p style="text-align:right;font-family:verdana;r;margin-right:16px";><a href="#" id="p01">Home<a><p>
+        <hr style="border-width:2.5px;">
+
+      <!-- Grid -->
+  <div class="w3-row w3-container" id="term">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Estudis termogràfics</span>
+    </div>
+    <div style="background-color:#E7E7E7;padding:12px">
+      <tr>
+      <td valign="top">
+       <p>Desde Andreu Manteniment Industrial busquem oferir un servei de manteniment integral. per això no sols arreglem i solucionem averies sino que proporcionem un servei predictiu i preventiu mitjançant càmara termogràfica d'última generació.<br /><br />Els estudis termogràfics son una important eina per al manteniment preventiu i predictiu d'instal·lacions de tot tipus com: motors, transformadors, quadres elèctrics, forns, cambres frigorífiques, etc.<br />
+        <br />L'estudi d'un termograma permet la localització de punts calents que delaten la presencia de defectes de funcionament en els equips abans de que es produeixi la averia. D'aquesta manera es pot dur a terme un manteniment preventiu de les instalacions.</p>
+       <h3>Aplicacions</h3>
+       <ul>
+       <li>Detecció d'anomalies al sistema sense interrompre el procés productiu.<br />D'aquesta manera els nostres clients poden estalviar-se despeses de producció minimitzant el nombre d'aturades de producció per manteniment dels equips. El manteniment preventiu pot realitzar-se amb més freqüència ja que no s'intervé en el procés de fabricació amb la conseqüent millora del funcionament.</li>
+       <li>Localització amb exactitud i antelació de potencials problemes.<br />La precisió d'aquests sistemes termogràfics ens permeten determinar amb rapidesa i exactitud el focus del problema.<br />
+        El funcionamient d'equips com per exemple coixinets,motors, bombes, etc, amb un augment substancial poden indicar el mal funcionament de l'equip i d'aquesta manera avançar-nos a futures averies.</li>
+       <li>Disminució de les actuacions de manteniment i redueixen el temps de reparació.isminución las actuaciones de mantenimiento y reducen el tiempo de reparación.<br /> Aquestes millores del manteniment preventiu es veuen reflexades de manera positiva en els costos de producció i manteniment, optimitzant els recursos dels que disposem i el temps emprat en manteniment.</li>
+       <li>Allarguen de la vida útil dels equips<br />La vida útil dels equips està influida directament pel funcionament i el manteniment realitzat, de manera que un manteniment eficient ens permet allargar la vida útil dels nostres equips.</li>
+       <li>Permeten un ús de l'energia més eficient.<br />Es disminueix el consum als equips de refrigeració/calefacció actuant sobre les causes que originen les perdues de fret o calor.<br />D'aquesta manera s'aconsegueix tant un estalvi energètic com un menor impacte mediambiental.</li>
+       <li>Le proporcionen descomptes a la pòliça de segur<br /> Donada l'eficiència dels estudis termogràfics, la gran majoria de les companyies asseguradores valoren positivament que la seva empresa tingui un programa de manteniment amb anàlisi termogràfic.</li>
+       </ul>
+       <h3>Documentació</h3>
+       <p>Amb cada estudi termogràfic elaborem un informe complet de l'estat de tots els punts de la instal·lació, assenyalant els punts més crítics de la instal·lació.</p>
+       <p><a href="docs/termografia.pdf" target="_blank" title="Informe de Ejemplo"><img src="images/edit_f2.png" border="0" alt="Informe termografía" width="32" height="32" style="border: 0; margin: 10px;" /></a></p>
+       <p><a href="docs/termografia.pdf" class="hoverlink" target="_blank" title="Informe de Ejemplo">Informe de exemple</a></p>
+       <h3>Exemples</h3>
+       <p>Termografies per a l'estudi de l'aillament tèrmic d'una nau frigorífica.</p>
+       <p style="text-align: center;">
+       <img src="images/term7_2.jpg" border="1" alt="Termografia 1" title="Termografia 1" width="36%" height="auto" onclick="openModal();currentSlide(13)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       <img src="images/term7.jpg" border="1" alt="Termografia 2" title="Termografia 2" width="36%" height="auto" onclick="openModal();currentSlide(14)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       <img src="images/term8_2.jpg" border="1" alt="Termografia 3" title="Termografia 3" width="36%" height="auto" onclick="openModal();currentSlide(15)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       <img src="images/term8.jpg" border="1" alt="Termografia 2" title="Termografia 4" width="36%" height="auto" onclick="openModal();currentSlide(16)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       </p>
+       <p>Termografíes par a l'estudi d'errors al sistema elèctric.</p>
+       <p style="text-align: center;">
+       <img src="images/term11.jpg" border="1" alt="Termografia 5" title="Termografia 5" width="36%" height="auto" onclick="openModal();currentSlide(17)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       <img src="images/term10.jpg" border="1" alt="Termografia 6" title="Termografia 6" width="36%" height="auto" onclick="openModal();currentSlide(18)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       <img src="images/term13.jpg" border="1" alt="Termografia 7" title="Termografia 7" width="36%" height="auto" onclick="openModal();currentSlide(19)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       <img src="images/term12.jpg" border="1" alt="Termografia 8" title="Termografia 8" width="36%" height="auto" onclick="openModal();currentSlide(20)" class="hover-shadowabc cursorabc" style="border: 2px solid white; margin: 10px;" />
+       </p>
+
+      </td>
+      </tr>
+    </div>
+  </div>
+  <p style="text-align:right;font-family:verdana;r;margin-right:16px";><a href="#" id="p01">Home<a><p>
+        <hr style="border-width:2.5px;">
+
+      <!-- Grid -->
+  <div class="w3-row w3-container" id="mant">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Mantenimient</span>
+    </div>
+    <div style="background-color:#E7E7E7;padding:12px">
+     <tr>
+     <td valign="top"> 
+      <p>Li oferim els nostres serveis de manteniment tant en actuacions puntuals, com incorporant un tècnic d'Andreu Manteniment Industrial a la seva plantilla habitual, adaptant-nos a l'horari de la seva empresa.</p>
+      <p>Cobrim tots els aspectes del manteniment industrial.</p>
+      <ul>
+      <li>Servicio de mantenimiento correctivo a pie de máquina:<br />Reparaciones de averias eléctricas, electromecánicas y electrónicas.</li>
+      <li>Servicio de mantenimiento preventivo:<br />Contamos con herramientas de gestión y diagnóstico de mantenimiento preventivo en la medida de sus requerimientos.</li>
+      <li>Servicio de mantenimiento predictivo<br />Implantación de sistemas para detectar posibles disfunciones de las máquinas antes que se produzcan.</li>
+      </ul>
+      <p>Disponemos de los equipos más novedosos como los sistemas de termografia o analizadores de redes eléctricas.</p>
+     </td>
+     </tr>
+    </div>
+  </div>
+  <p style="text-align:right;font-family:verdana;r;margin-right:16px";><a href="#" id="p01">Home<a><p>
+        <hr style="border-width:2.5px;">
+
+      <!-- Grid -->
+  <div class="w3-row w3-container" id="loc">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Localización</span>
+    </div>
+    <div style="background-color:#E7E7E7;padding:12px">
+     <tr>
+     <td valign="top"> 
+      <p>Nos encontramos en el Polígono Industrial de Valls</p>
+      <h3>Mapa</h3>
+     <div id="map" style="width:100%;height:500px"></div>
+      <p>Ver localización en <a href="https://www.google.es/maps/place/Andreu+Manteniment+Industrial+S.L./@41.3095015,1.2629498,2219m/data=!3m1!1e3!4m5!3m4!1s0x12a400e15e73fe3f:0xa818178e1a94b1dd!8m2!3d41.3095015!4d1.2651385" 
+        class="hoverlink" target="_blank" title="Google Maps ©">google maps ©</a></p>
+      <p>Ver fotografia en <a href="https://www.google.es/maps/@41.3094927,1.2652812,3a,90y,280.72h,88.12t/data=!3m6!1e1!3m4!1sfuuWEkuO-1gg09wAe2mF7w!2e0!7i13312!8i6656!6m1!1e1" 
+        class="hoverlink" target="_blank" title="google street view ©">google street view ©</a></p>
+     <p>Carretera del Pla de Santa Maria nº 253 <span id="result_box" class="short_text" lang="en"><span>nave</span></span> C1<br /><br />Código postal: 43800<br /><br />Población: Valls (Tarragona).</p>
+     </td>
+     </tr>
+    </div>
+  </div>
+  <p style="text-align:right;font-family:verdana;r;margin-right:16px";><a href="#" id="p01">Home<a><p>
+        <hr style="border-width:2.5px;">
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contactar</span>
+  </div>
+<table border="0" width="100%">
+    <tr>
+      <td></td>
+      <td rowspan="2" align="right" valign="top">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+</table>
+<br />
+<table style="margin-left:40px" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+  <td width="40" style="font-size:150%">
+    <i class="fa fa-envelope" style="cursor:default;" aria-hidden="true"></i>  </td>
+  <td style="font-size:150%">
+    info@andreumanteniment.com  </td>
+</tr>
+<tr>
+  <td width="40" style="font-size:150%">
+    <i class="fa fa-phone" style="cursor:default;" aria-hidden="true"></i>  </td>
+  <td style="font-size:150%">
+    977 60 70 65  </td>
+</tr>
+<tr>
+  <td width="40" style="font-size:150%">
+    <i class="fa fa-fax" style="cursor:default;" aria-hidden="true"></i> </td>
+  <td style="font-size:150%">
+    977 60 70 65  </td>
+</tr>
+</table>
+<br />
+      </td>
+    </tr>
+    </table>
+  <form class="w3-container" action="form.asp" target="_blank">
+    <div class="w3-group">
+      <label>Nombre</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-group">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="email" name="Email" required>
+    </div>
+    <div class="w3-group">
+      <label>Asunto</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Subject" required>
+    </div>
+    <div class="w3-group">
+      <label>Mensaje</label>
+      <textarea class="w3-input w3-border w3-hover-border-black" style="cols:auto;" type="text" name="Message" required></textarea>
+    </div>
+    <input type="checkbox" name="email_copy" id="contact_email_copy" value="1">
+    <label for="contact_email_copy">
+          Enviar una copia de este mensaje a su propio E-mail</label>
+    <br></br>
+    <button type="submit" class="w3-btn w3-btn-block w3-padding-12">Enviar</button>
+    <hr style="border-width:2.5px;">
+  </form>
+
+<!-- IMPORTANT -->
+
+  <div id="myModalabc" class="modalabc">
+   <span class="closeabc cursorabc" onclick="closeModal()">&times;</span>
+   <div class="modal-contentabc">
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">1 / 20</div>
+      <img src="images/furgonetas1.jpg" style="width:100%; max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">2 / 20</div>
+      <img src="images/oficina1.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">3 / 20</div>
+      <img src="images/oficina2.jpg" style="width:100%;max-height:550px;">
+    </div>
+    
+    <div class="mySlidesabc">
+      <div class="numbertextabc">4 / 20</div>
+      <img src="images/reunion1.jpg" style="width:100%;max-height:550px;">
+    </div>
+    
+    <div class="mySlidesabc">
+      <div class="numbertextabc">5 / 20</div>
+      <img src="images/taller3.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">6 / 20</div>
+      <img src="images/taller4.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+        <div class="mySlidesabc">
+      <div class="numbertextabc">7 / 20</div>
+      <img src="images/neumatica1.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">8 / 20</div>
+      <img src="images/neumatica2.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">9 / 20</div>
+      <img src="images/electricidad3.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">10 / 20</div>
+      <img src="images/automat1.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">11 / 20</div>
+      <img src="images/automat2.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">12 / 20</div>
+      <img src="images/graf_es.gif" style="width:100%;max-height:550px;">
+    </div>
+
+        <div class="mySlidesabc">
+      <div class="numbertextabc">13 / 20</div>
+      <img src="images/term7_2.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+        <div class="mySlidesabc">
+      <div class="numbertextabc">14 / 20</div>
+      <img src="images/term7.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">15 / 20</div>
+      <img src="images/term8_2.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">16 / 20</div>
+      <img src="images/term8.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">17 / 20</div>
+      <img src="images/term11.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">18 / 20</div>
+      <img src="images/term10.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">19 / 20</div>
+      <img src="images/term13.jpg" style="width:100%;max-height:550px;">
+    </div>
+
+    <div class="mySlidesabc">
+      <div class="numbertextabc">20 / 20</div>
+      <img src="images/term12.jpg" style="width:100%;max-height:550px;">
+    </div>
+    
+    <a class="prevabc" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="nextabc" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="captionabc-containerabc">
+      <p id="captionabc"></p>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-8 w3-center">
+  <h4>Andreu Manteniment Industrial.S.L.</h4>
+  <a href="#" class="w3-btn w3-padding w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p style="font-size:80%;">Pol.&nbspInd.&nbspValls · Carretera&nbspdel&nbspPla&nbspde&nbspSanta&nbspMaria&nbspnº253&nbspnave&nbspC1 · 
+    43800&nbspValls-Tarragona · Tel.&nbsp977&nbsp607&nbsp065 · Fax&nbsp977&nbsp607&nbsp065 · info@andreumanteniment.com · www.andreumanteniment.com
+  </p>
+  <p style="font-size:80%;">Powered by <b id="jordim">Jordi&nbspMallol&nbspMusté</b></p>
+</footer>
+
+<script>
+function openModal() {
+  document.getElementById('myModalabc').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModalabc').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlidesabc");
+  var dots = document.getElementsByClassName("demoabc");
+  var captionabcText = document.getElementById("captionabc");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeabc", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+
+
+}
+</script>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+<script>
+function myMap() {
+  var myLatLng = {lat: 41.3095176, lng: 1.2651675};
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: myLatLng,
+    zoom: 15
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Andreu Manteniment Industrial.S.L.'
+  })
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</body>
+</html>
